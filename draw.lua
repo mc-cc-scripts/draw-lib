@@ -4,7 +4,7 @@ windowHandler = { windows = {}, continueListener = false, drawChanges = false, w
 
 local scm = require("./scm")
 local EventHandler = scm:load("eventCallStack")
-local GuiDrawSelf = require("guiDrawSelf")
+local GuiDrawSelf = load("guiDrawSelf", "1", "draw")
 
 -- local pretty = require("cc.pretty")
 package.loaded.guiDrawSelf = nil
